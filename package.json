@@ -4,7 +4,8 @@
   "description": "Test app",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/DrewPopow/Distributor#readme",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
   "engines": {
     "node": "6.9.1"
   }
